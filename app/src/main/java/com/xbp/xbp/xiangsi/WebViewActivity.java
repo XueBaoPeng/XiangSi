@@ -56,19 +56,6 @@ public class WebViewActivity extends AppCompatActivity {
     }
 
     public void initListener() {
-        // TODO Auto-generated method stub
-        /**加载javascript*/
-//		WebSettings mWebSetting = mWebView.getSettings();
-//		mWebSetting.setJavaScriptEnabled(true);
-//		mWebView.addJavascriptInterface(new Object() {
-//            public void clickOnAndroid() {
-//                new Handler().post(new Runnable() {
-//                    public void run() {
-//                    	mWebView.loadUrl("javascript:wave()");
-//                    }
-//                });
-//            }
-//        }, "demo");
 
         /**打开页面时， 自适应屏幕*/
         WebSettings webSettings =   webView .getSettings();
