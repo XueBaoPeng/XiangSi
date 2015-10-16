@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item android:id="@+id/action_BiaoBai"
+          android:title="表白"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+      <item android:id="@+id/action_TaoHao"
+            android:title="讨好"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+      <item android:id="@+id/action_LaoDao"
+            android:title="唠嗑"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+      <item android:id="@+id/action_DaMa"
+            android:title=":打骂冤家"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+</menu>
